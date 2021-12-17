@@ -2,7 +2,7 @@
   "name": "vue-jsx-component-creator",
   "displayName": "Vue Component Creator",
   "description": "Create Vue Components",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "ygorazambuja",
   "repository": {
     "url": "https://github.com/ygorazambuja/vue-jsx-component"
