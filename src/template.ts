@@ -1,4 +1,10 @@
-export const templates = [
+export type Template = {
+  name: string;
+  filename: string;
+  content: string;
+};
+
+export const templates: Array<Template> = [
   {
     name: "mounted",
     filename: "mounted.js",
