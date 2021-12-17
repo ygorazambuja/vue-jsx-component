@@ -1,6 +1,6 @@
 import { Uri, workspace } from "vscode";
 
-import { Template } from "./template";
+import { Template } from "./templates";
 
 export class FileGenerator {
   constructor(private template: Template, private folderPath: string) {}

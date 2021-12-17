@@ -1,6 +1,6 @@
 import { ExtensionContext, commands, window } from "vscode";
 import { FileGenerator } from "./FileGenerator";
-import { templates } from "./template";
+import { jsxTemplates, Template } from "./templates";
 
 export function instantiateCommands(context: ExtensionContext) {
   const generateFilesDisposable = commands.registerCommand(
@@ -37,7 +37,7 @@ const composePathWithComponentName = (componentName: string, path: string) =>
   `${path}/${componentName}`;
 
 const generateFiles = (path: string) => {
-  templates.forEach((template) =>
+  jsxTemplates.forEach((template: Template) =>
     new FileGenerator(template, path).writeFile()
   );
 };
