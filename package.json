@@ -1,7 +1,7 @@
 {
-  "name": "vue-jsx-component",
-  "displayName": "vue-jsx-component",
-  "description": "Create VueJSX component",
+  "name": "vue-jsx-component-creator",
+  "displayName": "Vue Component Creator",
+  "description": "Create Vue Components",
   "version": "0.0.2",
   "publisher": "ygorazambuja",
   "repository": {
