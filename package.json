@@ -5,7 +5,7 @@
   "version": "0.0.5",
   "publisher": "ygorazambuja",
   "repository": {
-    "url": "https://github.com/ygorazambuja/vue-jsx-component"
+    "url": "https://github.com/ygorazambuja/vue-jsx-component-creator"
   },
   "engines": {
     "vscode": "^1.60.0"
