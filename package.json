@@ -3,7 +3,10 @@
   "displayName": "vue-jsx-component",
   "description": "Create VueJSX component",
   "version": "0.0.1",
-  "publisher": "Ygor",
+  "publisher": "ygorazambuja",
+  "repository": {
+    "url": "https://github.com/ygorazambuja/vue-jsx-component"
+  },
   "engines": {
     "vscode": "^1.63.0"
   },
